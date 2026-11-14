@@ -1,6 +1,6 @@
 member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
 VuTuyetTrinh + LuongHoangBaoTran,Trintrin0408; lhbtran2003,165535901+Trintrin0408@users.noreply.github.com; lhbtran2003@gmail.com,Lead / Integrator,src/main.py; configs/,4beec4f,"configs/lab.yaml set group G04 + owner + track t02; both ran src.main for baseline and PoC (out/baseline/run_info.json, out/poc/run_info.json)",
 VuTuyetTrinh + LuongHoangBaoTran,Trintrin0408; lhbtran2003,165535901+Trintrin0408@users.noreply.github.com; lhbtran2003@gmail.com,Data & fixtures,fixtures/; tools/,,"no separate commit: used provided fixtures/t02_raw_qc (no GT yet); provenance checked via manifest.csv",
-VuTuyetTrinh,Trintrin0408,165535901+Trintrin0408@users.noreply.github.com,Core algorithm,src/pipeline.py,015cc26,"feat: implement T02 raw image quality pipeline (+249/-95 in src/pipeline.py)",
+LuongHoangBaoTran,lhbtran2003,lhbtran2003@gmail.com,Core algorithm,src/pipeline.py,015cc26,"feat: implement T02 raw image quality pipeline (+249/-95 in src/pipeline.py)",
 LuongHoangBaoTran,lhbtran2003,lhbtran2003@gmail.com,QA / metric,tests/; reports/metrics_*.json,,"no separate commit: ran pytest -q (46 passed, 39 skipped, 1 failed) and computed secondary metrics (top-20 by light / camera_id)",
 VuTuyetTrinh ,Trintrin0408,165535901+Trintrin0408@users.noreply.github.com,Human review + report,reports/group_report.md; demo/,4beec4f,"set group G04 + owner in configs/lab.yaml; reviewed 20 images in out/poc/review_queue_reviewed.csv (audit in out/poc/audit_log.jsonl)",
